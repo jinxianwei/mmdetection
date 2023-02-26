@@ -10,7 +10,7 @@ model = dict(
         mask_head=dict(num_classes=1)))
 
 train_dataloader = dict(batch_size=4)
-train_cfg = dict(type='EpochBasedTrainLoop', max_epochs=100, val_interval=3)
+train_cfg = dict(type='EpochBasedTrainLoop', max_epochs=100, val_interval=1)
 
 optim_wrapper = dict(
     type='OptimWrapper',
