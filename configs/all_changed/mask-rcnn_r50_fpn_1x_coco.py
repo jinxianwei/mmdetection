@@ -21,8 +21,9 @@ param_scheduler = dict(
     T_max=100,
     eta_min=1e-6)
 
-load_from = 'https://download.openmmlab.com/mmdetection/v2.0/mask_\
-    rcnn/mask_rcnn_r50_fpn_mstrain-poly_3x_coco/mask_rcnn_r50_fpn_\
-    mstrain-poly_3x_coco_20210524_201154-21b550bb.pth'
+load_from = 'https://download.openmmlab.com/mmdetection/\
+    v2.0/mask_rcnn/mask_rcnn_r50_fpn_mstrain-poly_3x_coco/\
+    mask_rcnn_r50_fpn_mstrain-poly_3x_coco_20210524_201154-21b550bb.pth'
 
 work_dir = '/root/autodl-tmp/mmdet_workdir/mask-rcnn/temp2'
+randomness = dict(seed=0)
